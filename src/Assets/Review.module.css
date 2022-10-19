@@ -1,0 +1,41 @@
+.review_wrapper {
+    display: flex !important;
+    background-color: whitesmoke !important;
+    margin-top: 2% !important;
+    justify-content: center !important;
+    margin: auto;
+    width: 97% !important;
+}
+
+.dialog_1 {
+    display: flex;
+    gap: 5%;
+    padding: 1%;
+    flex: 50% !important;
+}
+
+.review_text {
+    margin: auto !important;
+    font-size: large;
+    text-align: center;
+    text-justify: inter-cluster;
+    font-weight: 600;
+}
+
+.review_panel_1 {
+    display: flex !important;
+    border: gray 2px solid;
+}
+
+.profile_imagex {
+    border: red solid 5px;
+    width: 105%;
+
+}
+
+.dialog_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgb(60, 0, 255) solid 5px;
+}

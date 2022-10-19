@@ -1,0 +1,105 @@
+.main_carousel {
+    /* position: absolute !important; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative !important;
+}
+
+.top_right {
+    position: absolute !important;
+    top: 20% !important;
+    left: 5% !important;
+    /* transform: translate(-30%, -80%) !important; */
+}
+
+.carousel_image {
+    width: 100% !important;
+    height: 350px;
+    object-fit: cover;
+}
+
+.top_left {
+    position: absolute !important;
+    top: 20% !important;
+    right: 5% !important;
+    /* transform: translate(-30%, -80%) !important; */
+    text-align: center;
+    /* text-indent: 10px !important; */
+}
+
+/* p1 {
+    line-height: 60px !important;
+} */
+
+.top_left>p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+p1 {
+    color: hsl(119, 86%, 56%);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+/* okkkk */
+
+.text_middle {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .text_middle_left {
+        color: #fff;
+        font-size: 100%;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 10px;
+        text-align: center;
+        text-justify: inter-word;
+    }
+
+    .text_middle {
+        color: #fff;
+        font-size: 100%;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 10px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    p1 {
+        color: hsl(119, 86%, 56%);
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: 700;
+        line-height: 70px;
+        text-align: center;
+        text-justify: inter-word;
+    }
+
+    .top_left>p {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;
+        text-justify: inter-word;
+    }
+}
