@@ -1,5 +1,6 @@
 .video_panel_wrapper {
     width: 100% !important;
+    padding: 1%;
 }
 
 .video_panel_Background {
@@ -23,13 +24,11 @@
 .video_panel_header {
     text-align: center;
     text-justify: inter-word;
-    padding: 1%;
     font-size: 45px;
     font-weight: 700;
     font-family: "Holtwood One SC";
-    color: brown;
+    color: white;
 }
-
 
 @media only screen and (max-width: 600px) {
     .video_panel_header {
