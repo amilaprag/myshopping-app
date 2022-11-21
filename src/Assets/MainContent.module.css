@@ -43,7 +43,8 @@
 
 .main_shop {
     width: 100% !important;
-    background-color: #f7f6f6;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .main_reviewes {
