@@ -1,11 +1,10 @@
 .video_panel_wrapper {
     width: 100% !important;
-    height: 700px;
 
-    ::after {
-        clear: both;
-        content: '';
-    }
+    // ::after {
+    //     clear: both;
+    //     content: '';
+    // }
 }
 
 .video_panel_Background {
@@ -17,16 +16,16 @@
     margin: auto !important;
     flex-wrap: wrap !important;
 
-    ::after {
-        clear: both;
-        content: '';
-    }
+    // ::after {
+    //     clear: both;
+    //     content: '';
+    // }
 }
 
 .video {
     padding: 1%;
-    width: 1000px !important;
-    height: 500px !important;
+    width: 700px !important;
+    height: 400px !important;
     padding: 0px !important;
     margin: 0px !important;
 }
