@@ -1,41 +1,83 @@
 .review_wrapper {
-    display: flex !important;
-    background-color: whitesmoke !important;
-    margin-top: 2% !important;
-    justify-content: center !important;
-    margin: auto;
-    width: 97% !important;
+    height: auto;
+    padding: 1%;
+    height: 350px;
 }
 
-.dialog_1 {
-    display: flex;
-    gap: 5%;
+.profile_image {
+    width: 205px;
+    height: 205px;
+    /* justify-content: center; */
+    /* float: right; */
+    /* margin-left: 1%; */
+    border-radius: 5%;
+    opacity: 0.7;
+}
+
+.review_static_text_p1 {
+    font-family: "Rammetto One";
+    color: red;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 800;
+    text-align: center !important;
     padding: 1%;
-    flex: 50% !important;
+}
+
+
+.review_image {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_image_text {
+    font-family: "Rammetto One";
+
 }
 
 .review_text {
-    margin: auto !important;
-    font-size: large;
-    text-align: center;
-    text-justify: inter-cluster;
-    font-weight: 600;
-}
-
-.review_panel_1 {
+    padding: 1%;
     display: flex !important;
-    border: gray 2px solid;
+    width: 50% !important;
+    /* height: 5%; */
+    font-size: 25px;
+    font-family: "Rammetto One";
+    font-weight: 500;
+    color: whitesmoke !important;
 }
 
-.profile_imagex {
-    border: red solid 5px;
-    width: 105%;
-
-}
-
-.dialog_wrapper {
+.profile_image_wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: rgb(60, 0, 255) solid 5px;
+    width: 50%;
+}
+
+.review_static_text {
+    font-family: "Rammetto One";
+    width: 50% !important;
+    height: 5%;
+    /* text-align: center; */
+    font-size: 25px;
+    color: whitesmoke !important;
+    text-align: justify !important;
+    text-justify: inter-word !important;
+
+}
+
+.review_text_p {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+}
+
+.text_wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.profile_image_text {
+    font-size: 25px;
+    color: whitesmoke !important;
+    /* text-align: right */
 }

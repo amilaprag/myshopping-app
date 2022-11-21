@@ -1,18 +1,26 @@
 .deal_panel {
     margin: auto !important;
     width: 80%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.deal_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.deal_panel_header {
+    font-family: "Holtwood One SC";
+    font-size: 30px;
+    font-weight: 700 !important;
 }
 
 .deal {
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.dealwrapper {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -21,13 +29,10 @@
     overflow: hidden !important;
 }
 
-.deal_panel_header {
-    font-size: 40px;
-    text-align: center;
-}
-
 .deal_panel_text {
     color: black;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .deal_panel_image {
@@ -43,7 +48,7 @@
 
 .deal_panel_image_img {
     width: 100%;
-    height: auto;
+    height: 200px;
 
 }
 

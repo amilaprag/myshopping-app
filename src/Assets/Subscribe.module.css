@@ -1,0 +1,72 @@
+.subscrbe_main_wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+    margin: auto !important;
+    padding: 5%;
+}
+
+.subscrbe_p1 {
+    font-family: "Rammetto One";
+    text-align: center;
+    padding: 1%;
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: 800;
+}
+
+.subscrbe_p2 {
+    font-family: "Rammetto One";
+    text-align: center;
+    font-size: 25px;
+    line-height: 5px;
+    font-weight: 800;
+}
+
+.subscrbe_p3 {
+    font-family: "Rammetto One";
+    text-align: center;
+    font-size: 25px;
+    line-height: 5px;
+    font-weight: 800;
+}
+
+.subscrbe_input {
+    height: 50px !important;
+    border: red 2px solid;
+}
+
+.subscrbe_button {
+    font-family: "Rammetto One";
+    height: 50px !important;
+    border: red 2px solid;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+#formOutlined {
+    font-size: 575% !important;
+    color: red;
+}
+
+.subscrbe_text_wrapper {
+    display: inline-block;
+    justify-content: center;
+}
+
+.subscrbe_text {
+    text-align: center;
+}
+
+
+.subscrbe_email {
+    display: flex;
+    gap: 5%;
+    padding: 3%;
+}
+
+.formOutlined {
+    display: flex;
+    justify-content: center;
+}

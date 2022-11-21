@@ -1,5 +1,6 @@
 .video_panel_wrapper {
     width: 100% !important;
+    height: 700px;
 
     ::after {
         clear: both;
@@ -9,7 +10,9 @@
 
 .video_panel_Background {
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
     justify-content: center !important;
     margin: auto !important;
     flex-wrap: wrap !important;
@@ -21,8 +24,9 @@
 }
 
 .video {
-    width: 800px !important;
-    height: 400px !important;
+    padding: 1%;
+    width: 1000px !important;
+    height: 500px !important;
     padding: 0px !important;
     margin: 0px !important;
 }
@@ -30,15 +34,16 @@
 .video_panel_header {
     text-align: center;
     text-justify: inter-word;
-    margin: 1%;
-    font-size: 25px;
+    padding: 1%;
+    font-size: 45px;
     font-weight: 700;
+    font-family: "Holtwood One SC";
 }
 
 
 @media only screen and (max-width: 600px) {
     .video_panel_header {
-        font-size: 5px;
+        // font-size: 5px;
         margin: 2%;
     }
 
@@ -52,8 +57,8 @@
 
 @media only screen and (max-width: 900px) {
     .video_panel_header {
-        font-size: 15px;
-        margin: 3%;
+        font-size: 25px;
+        padding: 3%;
         font-weight: 800 !important;
     }
 

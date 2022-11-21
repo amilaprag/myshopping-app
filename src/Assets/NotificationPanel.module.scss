@@ -1,13 +1,12 @@
 .notification_panel {
     display: flex;
+    width: 80%;
     justify-content: space-between !important;
     align-items: center !important;
-    height: 400px;
     flex-wrap: wrap;
-    gap: 20px !important;
+    gap: 40px !important;
     margin: auto;
-    padding: 10px;
-    background-color: #f7f6f6 !important;
+    padding: 50px;
 }
 
 .notification_panel_1 {
@@ -16,6 +15,26 @@
     position: relative;
     overflow: hidden;
     background-color: rgba(129, 125, 125, 3) !important;
+
+    &:hover {
+        #notification_panel_image_1 {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 1s ease-in-out;
+        }
+
+        .notification_panel_btn_shopping {
+            color: #F1F1F1 !important;
+            background-color: #ef233c !important;
+            border-color: #ef233c !important;
+
+            &:hover {
+                color: #F1F1F1 !important;
+                background-color: #ef233c !important;
+                border-color: #ef233c !important;
+            }
+        }
+    }
 }
 
 .notification_panel_2 {
@@ -23,23 +42,46 @@
     flex: 2;
     position: relative;
     overflow: hidden;
+
+    &:hover {
+        #notification_panel_image_2 {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 1s ease-in-out;
+        }
+
+        .notification_panel_btn_shopping {
+            color: #F1F1F1 !important;
+            background-color: #ef233c !important;
+            border-color: #ef233c !important;
+
+            &:hover {
+                color: #F1F1F1 !important;
+                background-color: #ef233c !important;
+                border-color: #ef233c !important;
+            }
+        }
+    }
 }
 
 #notification_panel_image_1 {
-    height: 350px;
+    // opacity: 0.6;
+    height: 300px;
     width: 100%;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #notification_panel_image_2 {
-    height: 350px;
+    // opacity: 0.6;
+    height: 300px;
     width: 100%;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .notification_panel_text {
+    font-family: "Holtwood One SC";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,48 +96,48 @@
     max-width: 350px;
 }
 
-.notification_panel_2:hover {
-    #notification_panel_image_2 {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        transition: 1s ease-in-out;
-    }
+// .notification_panel_2:hover {
+//     #notification_panel_image_2 {
+//         -webkit-transform: scale(1.2);
+//         transform: scale(1.2);
+//         transition: 1s ease-in-out;
+//     }
 
-    .btn_shopping {
-        color: #F1F1F1 !important;
-        background-color: #ef233c !important;
-        border-color: #ef233c !important;
+//     .notification_panel_btn_shopping {
+//         color: #F1F1F1 !important;
+//         background-color: #ef233c !important;
+//         border-color: #ef233c !important;
 
-        &:hover {
-            color: #F1F1F1 !important;
-            background-color: #ef233c !important;
-            border-color: #ef233c !important;
-        }
-    }
-}
+//         &:hover {
+//             color: #F1F1F1 !important;
+//             background-color: #ef233c !important;
+//             border-color: #ef233c !important;
+//         }
+//     }
+// }
 
-.notification_panel_1:hover {
+// .notification_panel_1:hover {
 
-    #notification_panel_image_1 {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-        transition: 1s ease-in-out;
-    }
+//     #notification_panel_image_1 {
+//         -webkit-transform: scale(1.2);
+//         transform: scale(1.2);
+//         transition: 1s ease-in-out;
+//     }
 
-    .btn_shopping {
-        color: #F1F1F1 !important;
-        background-color: #ef233c !important;
-        border-color: #ef233c !important;
+//     .notification_panel_btn_shopping {
+//         color: #F1F1F1 !important;
+//         background-color: #ef233c !important;
+//         border-color: #ef233c !important;
 
-        &:hover {
-            color: #F1F1F1 !important;
-            background-color: #ef233c !important;
-            border-color: #ef233c !important;
-        }
-    }
-}
+//         &:hover {
+//             color: #F1F1F1 !important;
+//             background-color: #ef233c !important;
+//             border-color: #ef233c !important;
+//         }
+//     }
+// }
 
-.btn_shopping {
+.notification_panel_btn_shopping {
     position: absolute !important;
     font-size: 80 !important;
     font-weight: 900 !important;
@@ -114,7 +156,7 @@
         height: auto !important;
     }
 
-    .btn_shopping {
+    .notification_panel_btn_shopping {
         width: 100% !important;
     }
 

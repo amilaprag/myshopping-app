@@ -1,12 +1,14 @@
 import React from "react"
 import styles from "../Assets/MainContent.module.css"
 import Carousel from "../Components/Carousel"
-import Deals from "../Components/Deals";
+import Deals from "../Components/Deals"
+import Footer from "../Components/Footer"
 import NotificationBar from "../Components/NotificationBar"
-import NotificationPanel from "../Components/NotificationPanel";
-import Review from "../Components/Review";
-import VideoPanel from "../Components/VideoPanel";
-import Header from "./Header";
+import NotificationPanel from "../Components/NotificationPanel"
+import Review from "../Components/Review"
+import Subscribe from "../Components/Subscribe"
+import VideoPanel from "../Components/VideoPanel"
+import Header from "./Header"
 
 const MainLayout = () => {
 
@@ -38,17 +40,17 @@ const MainLayout = () => {
                 <div className={styles.main_video}>
                     <VideoPanel />
                 </div>
-                {/* <div className={styles.main_shop}>
-                    ddd
-                </div> */}
+                <div className={styles.main_shop}>
+                    <Deals />
+                </div>
                 <div className={styles.main_reviewes}>
                     <Review />
                 </div>
                 <div className={styles.main_contact}>
-                    ddd
+                    <Subscribe />
                 </div>
                 <div className={styles.main_footer}>
-                    ddd
+                    <Footer />
                 </div>
             </div>
         </>

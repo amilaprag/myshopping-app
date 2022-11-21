@@ -1,0 +1,129 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    background: #fff;
+    z-index: 99;
+    font-family: "Rammetto One";
+    font-size: 25px;
+}
+
+.menu {
+    width: 80%;
+    height: 80px !important;
+    font-size: 13px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: auto;
+    display: flex;
+    align-items: center !important;
+}
+
+.menu_left {
+    margin-left: auto !important;
+    margin-right: 1%;
+}
+
+#menu_search_bar {
+    border: none !important;
+
+    &.focus {
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+.brand {
+    font-weight: 700 !important;
+
+    &.hover::after {
+        border: none !important;
+    }
+
+    &.active {
+        border: none !important;
+    }
+
+    &::after {
+        border-bottom: none !important;
+    }
+
+    .brand_p1 {
+        color: brown;
+        font-size: 26px;
+        text-transform: uppercase;
+    }
+
+    .brand_p2 {
+        color: yellowgreen;
+        font-size: 26px;
+        text-transform: uppercase;
+    }
+}
+
+.menu_customize {
+    border: none !important;
+
+    &:hover {
+        border: none !important;
+    }
+
+    &:focus {
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    &:hover::after {
+        border: none !important;
+    }
+
+    &:active {
+        border: none !important;
+    }
+
+    &::after {
+        border-bottom: none !important;
+    }
+}
+
+.btn_menu {
+    width: 150px !important;
+    margin-right: 3% !important;
+    border-radius: 20px !important;
+}
+
+.btn_menu_theme {
+    margin-left: 1% !important;
+}
+
+#mobile_theme_btn,
+#mobile_login_btn,
+#mobile_cart_btn {
+    display: none;
+}
+
+// @media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 900px) {
+    .menu {
+        width: 75% !important;
+        height: 80px !important;
+        margin: auto !important;
+    }
+
+    #mobile_login_btn {
+        margin-left: 10%;
+    }
+
+    .menu_left,
+    .menu_customize {
+        display: none;
+    }
+
+    #mobile_theme_btn,
+    #mobile_login_btn,
+    #mobile_cart_btn {
+        display: block;
+    }
+}

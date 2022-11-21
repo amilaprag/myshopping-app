@@ -2,9 +2,16 @@ import React from "react"
 import { Carousel } from 'antd'
 import styled from 'styled-components'
 import styles from '../Assets/Review.module.css'
+import { StarTwoTone } from '@ant-design/icons'
 
 const Review = () => {
+    const starCount = 5;
     const StyledCarousel = styled(Carousel)`
+    .ant-carousel {
+        margin: auto !important;
+        width: 90% !important;
+        padding: 10px;
+    }
     .ant-carousel .slick-dots li {
         margin-bottom :10px;
         margin-left :10px;
@@ -34,33 +41,72 @@ const Review = () => {
 
     return (
         <>
+            <p className={styles.review_static_text_p1} > What Clients Say </p>
             <StyledCarousel>
-                <Carousel  >
+                <Carousel autoplay  >
                     <div className={styles.review_wrapper}>
-                        <div className={styles.dialog_wrapper} >
-                            <div className={styles.dialog_1} >
-                                <div>
-                                    <img className={styles.profile_imagex} src="https://www.nicepng.com/png/detail/182-1829287_cammy-lin-ux-designer-circle-picture-profile-girl.png" />
-                                </div>
-                                <div className={styles.review_text}>
-                                    Capterra is a rating site that assesses software offered
-                                    by B2C and B2B firms if you’re a SaaS company. Users can look for software by industry, business, or type. Capterra is one of the most trustworthy review sites for software businesses,
-                                    so being active on this site can be one of the most
-                                    important marketing activities for this kind of company.
+                        <div className={styles.text_wrapper}>
+                            <div className={styles.profile_image_wrapper} >
+                                <div className={styles.review_image}>
+                                    <img className={styles.profile_image} src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
+                                    <div className={styles.profile_image_text}>
+                                        <p className={styles.review_text_p}>Sundar Pichai, in full Pichai Sundar
+                                            Tamil Nadu, India,
+                                            Indian-born American
+                                            executive who was CEO of
+                                            both Google, Inc. (2015– ),
+                                            and its holding company, Alphabet Inc.</p>
+                                    </div>
                                 </div>
                             </div>
+                            <div className={styles.review_text}>
+                                <p className={styles.review_text_p}>
+                                    "
+                                    Capterra is a rating site that assesses software offered by B2C and B2B firms if you’re a SaaS company. Users can look for software by industry, business, or type. Capterra is one of the most trustworthy review sites for software businesses,
+                                    so being active on this site can be one of the most
+                                    important marketing activities for this kind of company.
+                                    "
+                                    <span>
+                                        <p><StarTwoTone />
+                                            <StarTwoTone />
+                                            <StarTwoTone />
+                                            <StarTwoTone />
+                                            <StarTwoTone /></p>
+                                    </span>
+                                </p>
+                            </div>
                         </div>
-                        <div className={styles.dialog_wrapper} >
-                            <div className={styles.dialog_1} >
-                                <div>
-                                    <img className={styles.profile_imagex} src="https://www.nicepng.com/png/detail/182-1829287_cammy-lin-ux-designer-circle-picture-profile-girl.png" />
+                    </div>
+                    <div className={styles.review_wrapper}>
+                        <div className={styles.text_wrapper}>
+                            <div className={styles.profile_image_wrapper} >
+                                <div className={styles.review_image}>
+                                    <img className={styles.profile_image} src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
+                                    <div className={styles.profile_image_text}>
+                                        <p className={styles.review_text_p}>Sundar Pichai, in full Pichai Sundar
+                                            Tamil Nadu, India,
+                                            Indian-born American
+                                            executive who was CEO of
+                                            both Google, Inc. (2015– ),
+                                            and its holding company, Alphabet Inc.</p>
+                                    </div>
                                 </div>
-                                <div className={styles.review_text}>
-                                    Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
-                                    faucibus orci luctus et ultrices posuere.
-                                    Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
-                                    faucibus orci luctus et ultrices posuere.
-                                </div>
+                            </div>
+                            <div className={styles.review_text}>
+                                <p className={styles.review_text_p}>
+                                    "
+                                    Capterra is a rating site that assesses software offered by B2C and B2B firms if you’re a SaaS company. Users can look for software by industry, business, or type. Capterra is one of the most trustworthy review sites for software businesses,
+                                    so being active on this site can be one of the most
+                                    important marketing activities for this kind of company.
+                                    "
+                                    <span>
+                                        <p><StarTwoTone />
+                                            <StarTwoTone />
+                                            <StarTwoTone />
+                                            <StarTwoTone />
+                                            <StarTwoTone /></p>
+                                    </span>
+                                </p>
                             </div>
                         </div>
                     </div>

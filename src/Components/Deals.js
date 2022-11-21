@@ -6,10 +6,10 @@ const Deals = () => {
     return (
         <>
             <div className={styles.deal_panel}>
-                <div className={styles.deal_panel_header}>
-                    <p>Best Discounts For You</p>
-                </div>
-                <div className={styles.dealwrapper}>
+                <div className={styles.deal_wrapper}>
+                    <div className={styles.deal_panel_header}>
+                        <p id={styles.deal_panel_header_text}>Best Discounts For You</p>
+                    </div>
                     <div className={styles.deal}>
                         <div>
                             <div className={styles.deal_panel_image_wrapper}>
