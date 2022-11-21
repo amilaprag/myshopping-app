@@ -9,13 +9,14 @@
     font-size: 40px;
     font-weight: 700;
     padding: 40px;
+
 }
 
 .footer_p1 {
     font-family: "Rammetto One";
     font-size: 25px;
     font-weight: 700;
-    padding: 20px;
+    padding: 15px;
 }
 
 .footer_p2:hover {
@@ -27,8 +28,8 @@
     text-align: left;
     font-size: 20px;
     font-weight: 700;
-    line-height: 5px;
-    padding: 20px;
+    line-height: 1px;
+    padding: 15px;
 }
 
 .footer_p3 {
@@ -36,8 +37,8 @@
     text-align: left;
     font-size: 20px;
     font-weight: 700;
-    line-height: 5px;
-    padding: 20px;
+    line-height: 1px;
+    padding: 15px;
 }
 
 .footer_body_content {
@@ -74,7 +75,7 @@
     gap: 1%;
     margin-left: 1%;
     margin-top: 3%;
-    color: blue;
+    color: whitesmoke;
 }
 
 .footer_p4 {

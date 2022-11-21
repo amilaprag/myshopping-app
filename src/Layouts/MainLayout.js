@@ -9,6 +9,7 @@ import Review from "../Components/Review"
 import Subscribe from "../Components/Subscribe"
 import VideoPanel from "../Components/VideoPanel"
 import Header from "./Header"
+import { SAMPLE_POSTS, SAMPLE_POSTS_DISCOUNTS, SAMPLE_POSTS_OFFERS, SAMPLE_POSTS_SHOPWITHUS } from '../Utils/TestSamples/Post'
 
 const MainLayout = () => {
 
@@ -29,19 +30,19 @@ const MainLayout = () => {
                 </div>
                 <br />
                 <div className={styles.main_deals}>
-                    <Deals />
+                    <Deals posts={SAMPLE_POSTS} />
                 </div>
                 <div className={styles.main_discounts}>
-                    <Deals />
+                    <Deals posts={SAMPLE_POSTS_DISCOUNTS} />
                 </div>
                 <div className={styles.main_offers}>
-                    <Deals />
+                    <Deals posts={SAMPLE_POSTS_OFFERS} />
                 </div>
                 <div className={styles.main_video}>
                     <VideoPanel />
                 </div>
                 <div className={styles.main_shop}>
-                    <Deals />
+                    <Deals posts={SAMPLE_POSTS_SHOPWITHUS} />
                 </div>
                 <div className={styles.main_reviewes}>
                     <Review />

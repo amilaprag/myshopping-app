@@ -1,25 +1,15 @@
 .video_panel_wrapper {
     width: 100% !important;
-
-    // ::after {
-    //     clear: both;
-    //     content: '';
-    // }
 }
 
 .video_panel_Background {
     display: flex;
     flex-direction: row;
     width: 100%;
-    gap: 10px;
+    gap: 100px;
     justify-content: center !important;
     margin: auto !important;
     flex-wrap: wrap !important;
-
-    // ::after {
-    //     clear: both;
-    //     content: '';
-    // }
 }
 
 .video {
@@ -37,6 +27,7 @@
     font-size: 45px;
     font-weight: 700;
     font-family: "Holtwood One SC";
+    color: brown;
 }
 
 

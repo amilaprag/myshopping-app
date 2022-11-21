@@ -5,7 +5,7 @@ import styles from '../Assets/Review.module.css'
 import { StarTwoTone } from '@ant-design/icons'
 
 const Review = () => {
-    const starCount = 5;
+    const starCount = 8;
     const StyledCarousel = styled(Carousel)`
     .ant-carousel {
         margin: auto !important;
@@ -50,11 +50,11 @@ const Review = () => {
                                 <div className={styles.review_image}>
                                     <img className={styles.profile_image} src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
                                     <div className={styles.profile_image_text}>
-                                        <p className={styles.review_text_p}>Sundar Pichai, in full Pichai Sundar
+                                        <p className={styles.review_text_p}>Sundar Pichai
                                             Tamil Nadu, India,
                                             Indian-born American
                                             executive who was CEO of
-                                            both Google, Inc. (2015– ),
+                                            both Google, Inc. (2015),
                                             and its holding company, Alphabet Inc.</p>
                                     </div>
                                 </div>
@@ -81,13 +81,13 @@ const Review = () => {
                         <div className={styles.text_wrapper}>
                             <div className={styles.profile_image_wrapper} >
                                 <div className={styles.review_image}>
-                                    <img className={styles.profile_image} src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
+                                    <img className={styles.profile_image} src="https://us.123rf.com/450wm/lacheev/lacheev2109/lacheev210900016/lacheev210900016.jpg?ver=6" />
                                     <div className={styles.profile_image_text}>
-                                        <p className={styles.review_text_p}>Sundar Pichai, in full Pichai Sundar
+                                        <p className={styles.review_text_p}>Geem Saab
                                             Tamil Nadu, India,
-                                            Indian-born American
+                                            pakistan-born American
                                             executive who was CEO of
-                                            both Google, Inc. (2015– ),
+                                            both Tesla, Inc. (2022),
                                             and its holding company, Alphabet Inc.</p>
                                     </div>
                                 </div>

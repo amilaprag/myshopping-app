@@ -1,6 +1,6 @@
 .deal_panel {
     margin: auto !important;
-    width: 80%;
+    width: 90%;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -13,6 +13,7 @@
 }
 
 .deal_panel_header {
+    color: brown;
     font-family: "Holtwood One SC";
     font-size: 30px;
     font-weight: 700 !important;
@@ -32,7 +33,8 @@
 .deal_panel_text {
     color: black;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: "Rammetto One";
 }
 
 .deal_panel_image {
@@ -48,8 +50,7 @@
 
 .deal_panel_image_img {
     width: 100%;
-    height: 200px;
-
+    height: 250px;
 }
 
 @media only screen and (max-width: 600px) {
