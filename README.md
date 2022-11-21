@@ -1,6 +1,6 @@
-# Create React App
+# Myshopping Website 
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+When you are starting your online business, you want to create an Business page that inspires people to shop with your company. But without knowing what to write on the page, you can waste time creating draft after draft without going anywhere. So we decided to simplify things a bit for you. We will look at some inspiring template to help.
 
 ## Deploy Your Own
 
